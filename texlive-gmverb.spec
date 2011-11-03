@@ -1,3 +1,9 @@
+# revision 24288
+# category Package
+# catalog-ctan /macros/latex/contrib/gmverb
+# catalog-date 2011-10-14 16:42:22 +0200
+# catalog-license lppl
+# catalog-version v0.98
 Name:		texlive-gmverb
 Version:	v0.98
 Release:	1
@@ -43,6 +49,7 @@ gmutils package.
 %{_texmfdistdir}/tex/latex/gmverb/gmverb.sty
 %doc %{_texmfdistdir}/doc/latex/gmverb/README
 %doc %{_texmfdistdir}/doc/latex/gmverb/gmverb.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ gmutils package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
