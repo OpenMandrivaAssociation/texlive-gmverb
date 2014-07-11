@@ -6,7 +6,7 @@
 # catalog-version v0.98
 Name:		texlive-gmverb
 Version:	v0.98
-Release:	7
+Release:	8
 Summary:	A variant of LaTeX \verb, verbatim and shortvrb
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmverb
