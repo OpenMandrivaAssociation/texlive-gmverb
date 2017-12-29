@@ -1,12 +1,6 @@
-# revision 24288
-# category Package
-# catalog-ctan /macros/latex/contrib/gmverb
-# catalog-date 2011-10-14 16:42:22 +0200
-# catalog-license lppl
-# catalog-version v0.98
 Name:		texlive-gmverb
-Version:	v0.98
-Release:	10
+Version:	0.98
+Release:	1
 Summary:	A variant of LaTeX \verb, verbatim and shortvrb
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmverb
@@ -50,17 +44,3 @@ gmutils package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.98-2
-+ Revision: 752364
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.98-1
-+ Revision: 718568
-- texlive-gmverb
-- texlive-gmverb
-- texlive-gmverb
-- texlive-gmverb
-
