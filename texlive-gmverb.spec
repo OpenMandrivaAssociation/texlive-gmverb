@@ -1,6 +1,6 @@
 Name:		texlive-gmverb
 Version:	0.98
-Release:	1
+Release:	2
 Summary:	A variant of LaTeX \verb, verbatim and shortvrb
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmverb
