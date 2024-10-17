@@ -3,7 +3,7 @@ Version:	24288
 Release:	2
 Summary:	A variant of LaTeX \verb, verbatim and shortvrb
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmverb
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/gmverb
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gmverb.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gmverb.doc.r%{version}.tar.xz
